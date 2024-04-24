@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ЛІкарі</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="fonts.css">
+    <link rel="stylesheet" href="style_third_page.css">
+</head>
+<body>
+    <div class="header">        
+        <div class="logo">
+            <img src="icons/logo.png" alt="">
+        </div>  
+        <div class="menu">
+            <ul>
+                <li class="menu-item">
+                    <img src="icons/home.svg" alt="" class="menu-icon_1">
+                    <span><a href="index.html">Головна</a></span>
+                </li>
+                <li class="menu-item">
+                    <img src="icons/notepad.svg" alt="">
+                    <span><a href="Page2.html">Послуги</a></span>
+                </li>
+                <li class="menu-item">
+                    <img src="icons/man-health-worker.svg" alt="">
+                    <span><a href="Page3.html">Лікарі</a></span>
+                </li>                      
+                <li class="menu-item">
+                    <img src="icons/contacts.svg" alt="">
+                    <span><a href="Page4.html">Контакти</a></span>
+                </li>              
+                <li class="menu-item">
+                    <img src="icons/instagram.svg" alt="" class="menu-logo">
+                </li>
+                <li class="menu-item">
+                    <img src="icons/telegram.svg" alt="" class="menu-logo">
+                </li>
+                <li class="menu-item">
+                    <img src="icons/gmail.svg" alt="" class="menu-logo">
+                </li>                                
+            </ul>
+        </div>
+    </div>
+    <p class="title_3"><span>Наші</span> спеціалісти</p>
+    <div class="block_doctor_list">
+        <div class="container_list">
+            <div class="doctor_photo">
+                <img src="icons/doctor.svg" alt="">
+            </div>
+            <div class="doctor_info">
+                <p class="doctor_name">Назарова Оксана Фанільївна</p>
+                <p>Спеціалізується на імплантації, протезуванні, реставрації.</p>
+                <p>Понад 30 років досвіду у стоматології. Проходила стажування та спеціалізоване навчання у провідних медичних закладах, відвідала численні конференції.</p>
+                <p>На базі yancevuch clinic проводить численні навчальні семінари з підвищення кваліфікації лікарів-стоматологів.</p>
+                <div class="radio_button">
+                    <input type="radio" name="r" id="r1" checked>
+                    <label for="r1" class="bar"></label>
+                    <input type="radio" name="r" id="r2">
+                    <label for="r2" class="bar"></label>
+                    <input type="radio" name="r" id="r3">
+                    <label for="r3" class="bar"></label>
+                </div>
+            </div>
+            <div class="next-thin">
+                <img src="icons/next-thin 1.svg" alt="">
+            </div>
+        </div>
+    </div>
+    <div class="doctors_block">
+        <div class="container_doctors">
+            <div class="doctor_block">
+                <img src="icons/nazarova.svg" alt="">
+                <div class="description">
+                    <p class="name_doc">Назарова Оксана Фанільївна</p>
+                    <p>Головний лікар, </p>
+                    <p>дитячий лікар-стоматолог</p>
+                </div>
+            </div>  
+            <div class="doctor_block">
+                <img src="icons/borisenko.svg" alt="">
+                <div class="description">
+                    <p class="name_doc">Борисенко Микита Олегович</p>
+                    <p>Лікар-стоматолог-</p>
+                    <p>терапевт</p>
+                </div>
+            </div> 
+            <div class="doctor_block">
+                <img src="icons/jelnina.svg" alt="">
+                <div class="description">
+                    <p class="name_doc">Желніна Катерина Миколаївна</p>
+                    <p>Лікар-стоматолог-</p>
+                    <p>терапевт</p>
+                </div>
+            </div> 
+        </div>
+    </div>
+    <div class="more_button">
+        <button>Дивитися ще</button>
+    </div>
+    <div class="appointment">
+        <div class="photo"></div>
+        <div class="container_appointment">
+            <p class="title_appointment">Запишіться на прийом до лікаря</p>
+            <p>Виберіть потрібну вам дату, час та спеціаліста і ми вам передзвонимо</p>
+            <div class="inputs">
+                <div class="input_block">
+                    <div class="first_input">
+                        <p>Бажана дата та час</p>
+                        <input type="text">
+                    </div>
+                    <div class="second_input">
+                        <p>Спеціаліст</p>
+                        <select id="specialist" name="specialist">
+                        <option value="1">Спеціаліст 1</option>
+                        <option value="2">Спеціаліст 2</option>
+                        <option value="3">Спеціаліст 3</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="third_input">
+                    <p>Ваше прізвище ім’я та побатькові</p>
+                    <input type="text">
+                </div>
+                <div class="fourth_input">
+                    <p>Ваш номер телефону</p>
+                    <input type="text">
+                </div> 
+                <div><button>Записатися</button></div>               
+            </div>
+            
+        </div>
+    </div>
+    <div class="footer">
+        <div class="container_footer">
+            <div class="first_column">
+                <img src="icons/logo_foot.png" alt="">
+                <p>Професійна сімейна стоматологія
+                    Dental Studio №1 в Україні</p>
+                <div class="icons">
+                    <img src="icons/instagram.svg" alt="">
+                    <img src="icons/telegram.svg" alt="">
+                    <img src="icons/gmail.svg" alt="">
+                    <img src="icons/contacts_icon.svg" alt="">
+                </div>
+            </div>
+            <div class="second_column">
+                <p>Послуги</p>
+                <p>Професійна гігієна</p>
+                <p>Зубна хірургія</p>
+                <p>Ортопедія</p>
+                <p>Ортодонтія</p>
+                <p>Пломбуввання зубів</p>
+            </div>
+            <div class="third_column">
+                <p>Контакти</p>
+                <p>+380-66-666-66-66</p>
+                <p>dental_studio@gmail.com</p>
+                <p>вул. Перемоги 1</p>
+                <p>dentalstudio.com</p>
+                <p>08:00-22:00</p>
+            </div>
+            <div class="year">
+                <p>2024</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
